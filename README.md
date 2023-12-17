@@ -6,10 +6,13 @@ Our system ensures a seamless booking experience, eliminating any scheduling con
 
 Key innovations:
 
-No duplicate entries allowed.
-Time constraints preventing immediate booking for a similar service.
-Slot-specific restrictions (e.g., evening slot restriction after morning booking).
-Booking details sent to customer via email.
+1.No duplicate entries allowed.
+
+2.Time constraints preventing immediate booking for a similar service.
+
+3.Slot-specific restrictions (e.g., evening slot restriction after morning booking).
+
+4.Booking details sent to customer via email.
 
 
 Justifications:
