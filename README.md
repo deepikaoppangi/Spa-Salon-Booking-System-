@@ -1,4 +1,4 @@
-                           Spa & Salon Booking System 
+                                          Spa & Salon Booking System 
 
 "We have developed a comprehensive Spa & Salon Booking System with dedicated pages for both stylists and customers. 
 Our system ensures a seamless booking experience, eliminating any scheduling conflicts to provide a smooth and efficient service."
@@ -18,8 +18,8 @@ Slot-Specific Restrictions : Enhances user experience by offering flexibility, m
 
 
 
-                                                                                                                                                     ------ Oppangi Poojita 
-                                                                                                                                                     ------ IIT Jodhpur,
-                                                                                                                                                     ------ CSE Department
+                                              ------ Oppangi Poojita 
+                                              ------ IIT Jodhpur,
+                                              ------ CSE Department
                                                                                                                                                      
 
