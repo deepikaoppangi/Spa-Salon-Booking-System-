@@ -25,8 +25,8 @@ Slot-Specific Restrictions : Enhances user experience by offering flexibility, m
 
 
 
-                                              ------ Oppangi Poojita 
-                                              ------ IIT Jodhpur,
-                                              ------ CSE Department
+                                              ------ Oppangi Poojita                                   
+                                              ------ CSE Department, 
+                                              ------ IIT Jodhpur
                                                                                                                                                      
 
