@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Stylists
+{% endblock title %}
+
+{% block body %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            {% with messages=get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{category}} alert-dismissible fade show" role="alert">
+                            {{message}}
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            <br>
+            <h2 class="text-center text-white bg-dark">Stylists Booking</h2>
+            <br>
+            <form action="/stylists" method="post" class="jumbotron">
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" value={{current_user.email}} required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="stylist_name" placeholder="Stylist Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="service_offered" placeholder="service_offered" required>
+                </div>
+                <button type="submit" class="btn btn-dark btn-sm btn-block">Book</button>
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+{% endblock body %}

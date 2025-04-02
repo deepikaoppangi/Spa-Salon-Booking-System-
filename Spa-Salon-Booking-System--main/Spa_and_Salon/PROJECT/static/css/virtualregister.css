@@ -1,0 +1,56 @@
+.section-title {
+    text-align: center;
+}
+.pricing .row {
+    padding-top: 0px;
+}
+.card {
+    /* margin-top: 57px; */
+    border-radius: 8px 40px 40px 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px 0px 8px 2px rgb(47, 206, 255);
+}
+.bg-dark {
+    background-color: #80e5fe;
+    background-image: linear-gradient(315deg, #63ccd4 0%, #233329 74%);
+}
+label {
+    color: white;
+    margin-top: 15px;
+}
+.jumbotron {
+    background-color: #63d4d0;
+    background-image: linear-gradient(315deg, #63ccd4 0%, #233329 74%);
+}
+#departmentdepartment {
+    width: 300px;
+}
+.form-group input,select {
+    border: none;
+    border-bottom: 2px solid #63ccd4;;
+    outline: none;
+    margin-bottom: 5px;
+}
+option {
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #63ccd4;;
+    outline: none;
+    /* font-size: 22px; */
+    margin-bottom: 5px;
+}
+.form-group input:hover {
+    background-color: ghostwhite;
+}
+#btn {
+    background-color: #63ccd4;
+    background-image: linear-gradient(315deg, #63ccd4 0%, #233329 74%);
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    width: 300px;
+}
+#btn:hover {
+    background-color: white;
+    color: white;
+}
