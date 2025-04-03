@@ -9,12 +9,20 @@ app = Flask(__name__)
 app.secret_key = 'spadbms'
 
 # Database configuration
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/spadbms'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://deepika:Diensh.pooji123@database-1.c72c020yicgy.ap-south-1.rds.amazonaws.com:3306/spadbms'
+app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
+    'pool_size': 5,
+    'pool_recycle': 3600,
+    'pool_pre_ping': True
+}
 db = SQLAlchemy(app)
 
 # Login Manager configuration
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'
+
+
+
 
 # Define your slots
 allowed_slots = {
@@ -426,7 +434,8 @@ def search():
             flash("Stylist is Not Available", "danger")
 
     return render_template('index.html')
-# if __name__ == "__main__":
-#     db.create_all()
+if __name__ == "__main__":
+    with app.app_context():
+        db.create_all()
 #     app.run(debug=True)
-app.run(debug=False, port=5001)    
+    app.run(debug=False, port=5001)    
